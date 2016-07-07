@@ -1,0 +1,69 @@
+python installation:
+windows/
+	 https://www.python.org/downloads/
+	 download the file. double click it
+	 with this file will get idle (gui version python editor)
+	 to run python files from cmd for the firstime set a path
+	 -> copy the python path
+	 -> right click on mycomputer -> advanced settings -> Environment variables -> under system variables search for "path" variable. select it and edit the path and click on apply. 
+
+	 Anaconda installation:
+	 	go here https://www.continuum.io/downloads  and download the file. install it. With this installation ipython, ipython notebook will come.
+	 	goto cmd type : ipython or ipython notebook  to step into ides
+	 Module installation:
+	 	windows: pythonfolder/Scripts/ pip,easy_install
+	 	pip install modulename
+	 	conda install modulename
+	 Run a file:
+	 	open terminal and type
+	 	python pathofafile
+
+
+Linux:
+		No need to install python in linux environment. os itself come up with default version most of times its second version of python
+
+	ubuntu/
+
+		apt-get install python/python3 idle idle3 ipython ipython-notebook
+	 cent/
+	 	yum install
+	 
+	 Run a file:
+	 	python path of a file
+
+	Anaconda installtion
+	 https://www.continuum.io/downloads
+	 bash filename
+	 With this installation ipython, ipython notebook will installs.
+
+	module installation
+	install suyblimetext3:
+	 sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
+	 sudo apt-get update; 
+	 sudo apt-get install -y sublime-text-installer
+
+Conda commands(common for any os):
+		conda -V
+		conda install modulename
+		conda env list
+		conda create --name python3 python=3 pandas
+		to activate environament use:
+			source activate environment_name
+		to deactivate
+			source deactivate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

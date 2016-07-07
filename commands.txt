@@ -1,0 +1,8 @@
+man -
+mkdir - 
+pwd
+ls
+ls -l|grep re
+vi 
+cd
+ 
