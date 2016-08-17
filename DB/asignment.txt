@@ -1,0 +1,31 @@
+table -> id name age sal maritalstatus
+'''
+1.insert
+2.update
+3.delete
+'''
+
+1.-> Howmanuy records want to insert 
+record1 details collection:
+Enter id: name: age: sal: mar:
+
+what if the user enters existing id?
+you wan me to updat existing details? or keep existing details ?
+
+2. upadte:
+take the id fro the user.
+if the id is exist: take the otherr details and update it
+else: id is not there,  you want me to insert
+
+......................................................
+pass a command line arguments
+
+python serch.py id=1 name=name1 age=23
+
+if id is exist update the details
+if id is not there insert the details
+
+.............
+take the persons.csv data create a table insert data in to that table
+
+

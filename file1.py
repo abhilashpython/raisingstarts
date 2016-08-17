@@ -1,0 +1,6 @@
+f=open('f1.txt')
+print f.readlines()
+f.seek(0)
+print f.readline()
+print f.readline()
+print f.readlines()
